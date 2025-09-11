@@ -47,11 +47,6 @@ h6 {
     overflow-wrap: break-word;
 }
 
-#root,
-#__next {
-    isolation: isolate;
-}
-
 /* Styles */
 :root {
     --color-slate-900: #1f314f;
@@ -67,7 +62,7 @@ body {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 15px;
+    font-size: 0.9375rem;
     background-color: var(--color-slate-300);
 }
 
@@ -102,7 +97,7 @@ body {
     letter-spacing: 0;
     text-align: center;
     color: var(--color-slate-900);
-    margin-bottom: var(--spacing-200)
+    margin-block-end: var(--spacing-200)
 }
 
 .qr_desc {
